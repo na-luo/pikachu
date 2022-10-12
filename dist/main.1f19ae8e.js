@@ -9812,11 +9812,11 @@ function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" =
 
 var _css = _interopRequireDefault(require("./css.js"));
 
-var _jquery = _interopRequireDefault(require("./jquery.js"));
+var _jquery = require("./jquery.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-window.jQuery = _jquery.default;
+window.jQuery = _jquery.jQuery;
 var player = {
   id: undefined,
   time: 50,
@@ -9909,7 +9909,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "13863" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "2193" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

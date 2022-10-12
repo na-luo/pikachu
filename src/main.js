@@ -1,5 +1,5 @@
 import string from './css.js'
-import jQuery from './jquery.js'
+import { jQuery } from "./jquery.js";
 window.jQuery =jQuery
 const player = {
     id : undefined,
