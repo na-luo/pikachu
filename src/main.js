@@ -1,6 +1,6 @@
 import string from './css.js'
-// import { jQuery } from "./jquery.js";
-// window.jQuery =jQuery
+import jQuery from "./jquery.js";
+window.jQuery =jQuery
 const player = {
     id : undefined,
     time : 50,
