@@ -38,7 +38,7 @@ const player = {
         }
         player.ui.demo.innerText = string.substring(0,player.n)
         player.ui.demo1.innerHTML = string.substring(0,player.n)
-        player.ui.demo.scrollTop = player.demo.scrollHeight
+        player.ui.demo.scrollTop = player.ui.demo.scrollHeight
     },
     play:()=>{
         player.id = setInterval(player.intervalFunc,player.time)
